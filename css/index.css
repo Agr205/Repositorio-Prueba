@@ -1,3 +1,35 @@
+:root {
+    /* Colors */
+    --sunset-orange: #ff535b;
+    --Jacarta: #3a3d5c;
+    --Dark-Gunmetal: #24242c;
+    /* Fonts */
+    --overall-fontsize: 62.5%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: var(--overall-fontsize);
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: "Inter",sans-serif; 
+    text-align: center;
+}
+
+.main-container {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header */
 .header {
     background-color: var(--sunset-orange);
